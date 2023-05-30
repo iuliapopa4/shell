@@ -12,5 +12,3 @@ The dir command is used to list the files and directories in a given directory. 
 The program also provides support for handling pipes (|) to execute multiple commands in succession. It splits the input into individual commands and uses fork() and execvp() to create child processes and execute the commands.
 
 The program provides a command prompt (>) where users can enter commands to be executed. The command prompt supports command history using the readline library.
-
-Note: This is a partial code, and the complete functionality and implementation details may vary depending on the code not included here.
